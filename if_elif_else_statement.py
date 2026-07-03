@@ -1,6 +1,9 @@
 print("if_elif_else_statement.py")
 
 
+print("------------------")
+
+
 marks = int(input("enter your marks"))
 if marks >= 90:
     print("Grade A")
@@ -14,6 +17,9 @@ else:
     print("Fail")
 
 
+
+print("--------------------")
+
 age = int(input("Enter your age"))
 if age <= 18:
     print("child")
@@ -23,6 +29,13 @@ elif age >= 50:
      print("adult")
 elif age >= 70:
     print("senior citizen")
+
+
+
+
+print("--------------------")
+
+
 
 
 signal = input("Enter traffic signal (Red/Yellow/Green): ")
@@ -36,6 +49,9 @@ else:
     print("Invalid Traffic Signal")
 
 
+print("-------------------")
+
+
 amount = float(input("Enter purchase amount: "))
 if amount >= 5000:
     print("Discount: 20%")
@@ -45,6 +61,10 @@ elif amount >= 1000:
     print("Discount: 10%")
 else:
     print("No Discount")
+
+
+print("-----------------------")
+
 
 
 temp = float(input("enter daily temp"))
@@ -61,6 +81,11 @@ else:
 
 
 
+
+print("--------------------")
+
+
+
 amount = float(input("Enter total purchase amount "))
 if amount >= 50000:
     print("Membership: Platinum")
@@ -70,6 +95,10 @@ elif amount >= 10000:
     print("Membership: Silver")
 else:
     print("Membership: Regular")
+
+
+
+print("----------------------")
 
 
 choice = int(input("Enter your choice (1-5)"))
@@ -85,3 +114,5 @@ elif choice == 5:
     print("Thank You! Visit Again.")
 else:
     print("Invalid Choice!")
+
+    
